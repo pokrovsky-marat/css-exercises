@@ -121,9 +121,45 @@ footer,
   font-weight: 300;
   color: #1f2937;
 }
-.two__text-author{
+.two__text-author {
   font-weight: bold;
   text-align: right;
   margin-top: 10px;
   margin-right: 50px;
+}
+/* three section */
+.three {
+  padding: 100px 0;
+}
+.three__container {
+  background-color: #3882f6;
+  color: white;
+  border-radius: 5px;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.three__call-title {
+  font-weight: bold;
+}
+.three__call-btn {
+  background-color: #3882f6;
+  color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 8px 30px;
+  flex-shrink: 0;
+}
+.three__call-btn:hover{
+  cursor: pointer;
+  background-color: white;
+  color:#3882f6;
+}
+/* footer */
+footer{
+  padding: 40px 0;
+  text-align: center;
 }
