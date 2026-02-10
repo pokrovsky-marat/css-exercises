@@ -96,11 +96,10 @@ footer,
   gap: 30px;
   justify-content: center;
 }
-.one__card{
+.one__card {
   flex-basis: 18%;
 }
-.one__img-container{
-
+.one__img-container {
 }
 .one__img {
   width: 100%;
@@ -108,4 +107,23 @@ footer,
   object-fit: cover;
   border: 5px solid #3882f6;
   border-radius: 10px;
+}
+/* Section two */
+.two {
+  padding: 100px 0;
+  background-color: #e5e7eb;
+}
+.two__container {
+  max-width: 930px;
+}
+.two__text {
+  font-size: 36px;
+  font-weight: 300;
+  color: #1f2937;
+}
+.two__text-author{
+  font-weight: bold;
+  text-align: right;
+  margin-top: 10px;
+  margin-right: 50px;
 }
